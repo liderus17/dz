@@ -1,4 +1,89 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: #374151;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.navigation{
+  display: flex;
+}
+
+.logo{
+  width: 35px;
+  height: 35px;
+  margin-top: 78px;
+  background-color: #4B5563;
+  border-radius: 3px;
+}
+
+.logo-b{
+  padding-top: 8px;
+  padding-left: 12px;
+  font-size: 18px;
+  color: white;
+}
+
+.menu{
+  margin-top: 70px;
+  display: flex;
+}
+
+.menu ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.search{
+  margin-top: 80px;
+  margin-left: 650px;
+}
+
+.search input{
+  width: 224px;
+  height: 40px;
+  padding: 15px;
+  background-color: #1F2937;
+  border:none;
+  font-size: 16px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.main{
+  margin-top: 180px;
+  margin-left: 630px;
+}
+
+.main-img img{
+  width: 896px;
+  height: 594px;
+  margin-top: 197px;
+  margin-left: 272px;
+  border-radius: 5px;
+}
+
+.main-text{
+  width: 708px;
+  height: 101px;
+  margin-top: 50px;
+  margin-left: 367px;
+  color: #ffffff;
+  line-height: 32px;
+  font-size: 20px;
+}
+.footer{
+  margin-left: 608px;
+  margin-top: 200px;
 }
