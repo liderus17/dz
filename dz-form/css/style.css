@@ -7,14 +7,13 @@ body {
 	margin-left: 400px;
 }
 
-a{
-  color: #089FE0;
+a {
+	color: #089fe0;
 }
 
-
-.container{
-  max-width: 1440px;
-  margin: 0 auto;
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
 }
 
 .form {
@@ -22,10 +21,10 @@ a{
 	height: 573px;
 	margin-top: 225px;
 	margin-left: 229px;
-  padding-top: 10px;
+	padding-top: 10px;
 	border-radius: 10px;
 	background-color: #fffefe;
-  text-align: center;
+	text-align: center;
 }
 
 .form-header h1 {
@@ -35,9 +34,86 @@ a{
 	font-size: 36px;
 }
 
-
-.form-text h2{
-  font-family: serif, 'Open Sans';
-  font-size: 18px;
+.form-text h2 {
+	font-family: serif, 'Open Sans';
+	font-size: 18px;
 }
 
+.form-text-input {
+	font-family: serif, 'Open Sans';
+	width: 394px;
+	height: 44px;
+	border-radius: 5px;
+	border: solid 1px #f5f5f5;
+	font-size: 16px;
+	color: #333333;
+	padding: 5px;
+}
+
+.form-text-name {
+	font-family: serif, 'Open Sans';
+	width: 394px;
+	height: 44px;
+	border-radius: 5px;
+	border: solid 1px #f5f5f5;
+	font-size: 16px;
+	color: #333333;
+	padding: 5px;
+	margin-top: 15px;
+	background-color: #f5f5f5;
+	font-style: italic;
+}
+
+.form-text-fio {
+	font-family: serif, 'Open Sans';
+	width: 394px;
+	height: 44px;
+	border-radius: 5px;
+	border: solid 1px #f5f5f5;
+	font-size: 16px;
+	color: #333333;
+	padding: 5px;
+	margin-top: 15px;
+	background-color: #f5f5f5;
+	font-style: italic;
+}
+
+.form-text-email {
+	font-family: serif, 'Open Sans';
+	width: 394px;
+	height: 44px;
+	border-radius: 5px;
+	border: solid 1px #f5f5f5;
+	font-size: 16px;
+	color: #333333;
+	padding: 5px;
+	margin-top: 15px;
+	background-color: #f5f5f5;
+	font-style: italic;
+}
+
+.button{
+	margin-top: 45px;
+}
+
+.btn{
+	font-family: serif, 'Open Sans';
+	font-size: 18px;
+	width: 394px;
+	height: 44px;
+	background-color: #089FE0;
+	border-radius: 5px;
+	border: none;
+	color: white;
+
+}
+
+.checkbox{
+	margin-top: 30px;
+}
+
+.form-checkbox{
+	font-family: serif, 'Open Sans';
+	font-size: 14px;
+
+}
